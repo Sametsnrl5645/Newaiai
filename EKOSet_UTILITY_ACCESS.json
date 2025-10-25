@@ -1,0 +1,23 @@
+// newai_project/ekoset/EKOSet_UTILITY_ACCESS.json
+{
+  "utilities": [
+    {
+      "id": "volume_manager",
+      "name": "Newai Ses Yöneticisi",
+      "dart_path": "package:newai_project/utils/volume_manager.dart",
+      "description": "Medya sesini yükseltir veya azaltır."
+    },
+    {
+      "id": "app_settings_manager",
+      "name": "Sistem Ayarları Yöneticisi",
+      "dart_path": "package:newai_project/utils/app_settings_manager.dart",
+      "description": "WiFi, Bluetooth gibi sistem ayarlarını açar."
+    },
+    {
+      "id": "external_app_launcher",
+      "name": "Harici Uygulama Başlatıcı",
+      "dart_path": "package:newai_project/utils/external_app_launcher.dart",
+      "description": "Cihazdaki diğer uygulamaları başlatır."
+    }
+  ]
+}

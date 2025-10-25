@@ -1,0 +1,51 @@
+// ekoset/EKOSet_ACCESS_COMMANDS.json
+{
+  "commands": [
+    {
+      "name": "Saat Komutu",
+      "triggers": ["saat kaç", "şimdi saat kaç"],
+      "action": "tts",
+      "response_text": "Şu an saat ${DateTime.now().hour}:${DateTime.now().minute}. (Dinamik Cevap)",
+      "is_dynamic": true
+    },
+    {
+      "name": "Ses Yükseltme",
+      "triggers": ["ver bakayım", "sesi yükselt", "ses aç"],
+      "action": "dart_call",
+      "dart_function_name": "raiseMediaVolume",
+      "utility_id": "volume_manager",
+      "tts_response": "Medya sesini yükselttim."
+    },
+    {
+      "name": "Ses Azaltma",
+      "triggers": ["al sesi", "sesi azalt", "ses kıs"],
+      "action": "dart_call",
+      "dart_function_name": "lowerMediaVolume",
+      "utility_id": "volume_manager",
+      "tts_response": "Medya sesini azalttım."
+    },
+    {
+      "name": "Lark Player Aç",
+      "triggers": ["lark player'ı aç", "lark player aç"],
+      "action": "dart_call",
+      "dart_function_name": "launchLarkPlayer",
+      "utility_id": "external_app_launcher",
+      "tts_response": "Lark Player açılıyor."
+    },
+    {
+      "name": "WiFi Ayarları Aç",
+      "triggers": ["wi-fi ayarlarını aç", "wifi ayarlarını aç"],
+      "action": "dart_call",
+      "dart_function_name": "openWifiSettings",
+      "utility_id": "app_settings_manager",
+      "tts_response": "WiFi ayarları açılıyor."
+    },
+    {
+      "name": "Adını Söyle (Dinamik Eklenen Özellik)",
+      "triggers": ["adın ne", "kimsin", "kendini tanıt"],
+      "action": "tts",
+      "response_text": "Benim adım Newai, yapay zeka asistanınızım. Size yardım etmek için buradayım.",
+      "is_dynamic": true
+    }
+  ]
+}
