@@ -1,21 +1,3 @@
-lib/screens/app_manager.dart:20:19: Error: Can't find '}' to match '{'.
-class ChatMessage {
-                  ^
-lib/screens/app_manager.dart:18:62: Error: Can't find '}' to match '{'.
-  Future<bool> register(String email, String password) async {
-                                                             ^
-lib/screens/app_manager.dart:15:59: Error: Can't find '}' to match '{'.
-  Future<bool> login(String email, String password) async {
-                                                          ^
-lib/screens/app_manager.dart:13:49: Error: Can't find '}' to match '{'.
-  void addMessage(String text, bool isSentByMe) {
-                                                ^
-lib/screens/app_manager.dart:11:33: Error: Can't find '}' to match '{'.
-  void sendMessage(String text) {
-                                ^
-lib/screens/app_manager.dart:3:41: Error: Can't find '}' to match '{'.
-class AppManager extends ChangeNotifier {
-                                        ^
 lib/screens/auth_screen.dart:161:28: Error: Can't find '}' to match '{'.
   Widget _buildAuthTitle() {
                            ^
@@ -341,12 +323,6 @@ lib/screens/login_background_painter.dart:5:40: Error: Can't find '}' to match '
 lib/screens/login_background_painter.dart:3:51: Error: Can't find '}' to match '{'.
 class NeonBackgroundPainter extends CustomPainter {
                                                   ^
-lib/screens/app_manager.dart:5:14: Error: Type 'ChatMessage' not found.
-  final List<ChatMessage> _messages = [];
-             ^^^^^^^^^^^
-lib/screens/app_manager.dart:7:8: Error: Type 'ChatMessage' not found.
-  List<ChatMessage> get messages => _messages;
-       ^^^^^^^^^^^
 lib/screens/account_screen.dart:8:3: Error: 'State' isn't a type.
   State<AccountScreen> createState() => _AccountScreenState(); // Metot ismini createState olarak düzelttim}
   ^^^^^
@@ -392,68 +368,6 @@ class NeonBackgroundPainter extends CustomPainter {
 /C:/flutter/packages/flutter/lib/src/rendering/custom_paint.dart:271:8: Context: 'CustomPainter.shouldRepaint' is defined here.
   bool shouldRepaint(covariant CustomPainter oldDelegate);
        ^^^^^^^^^^^^^
-lib/screens/app_manager.dart:5:14: Error: 'ChatMessage' isn't a type.
-  final List<ChatMessage> _messages = [];
-             ^^^^^^^^^^^
-lib/screens/app_manager.dart:20:1: Error: 'class' can't be used as an identifier because it's a keyword.
-Try renaming this to be an identifier that isn't a keyword.
-class ChatMessage {
-^^^^^
-lib/screens/app_manager.dart:20:1: Error: Expected ';' after this.
-class ChatMessage {
-^^^^^
-lib/screens/app_manager.dart:20:7: Error: Expected ';' after this.
-class ChatMessage {
-      ^^^^^^^^^^^
-lib/screens/app_manager.dart:25:14: Error: Expected ',' before this.
-    required this.text,
-             ^^^^
-lib/screens/app_manager.dart:26:14: Error: Expected ',' before this.
-    required this.isSentByMe,
-             ^^^^
-lib/screens/app_manager.dart:27:14: Error: Expected ',' before this.
-    required this.timestamp,});
-             ^^^^
-lib/screens/app_manager.dart:12:19: Error: The method 'ChatMessage' isn't defined for the type 'AppManager'.
- - 'AppManager' is from 'package:newai_ai/screens/app_manager.dart' ('lib/screens/app_manager.dart').
-Try correcting the name to the name of an existing method, or defining a method named 'ChatMessage'.
-    _messages.add(ChatMessage(text: text, isSentByMe: true, timestamp: DateTime.now()));
-                  ^^^^^^^^^^^
-lib/screens/app_manager.dart:14:19: Error: The method 'ChatMessage' isn't defined for the type 'AppManager'.
- - 'AppManager' is from 'package:newai_ai/screens/app_manager.dart' ('lib/screens/app_manager.dart').
-Try correcting the name to the name of an existing method, or defining a method named 'ChatMessage'.
-    _messages.add(ChatMessage(text: text, isSentByMe: isSentByMe, timestamp: DateTime.now()));
-                  ^^^^^^^^^^^
-lib/screens/app_manager.dart:20:1: Error: The getter 'class' isn't defined for the type 'AppManager'.
- - 'AppManager' is from 'package:newai_ai/screens/app_manager.dart' ('lib/screens/app_manager.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named 'class'.
-class ChatMessage {
-^^^^^
-lib/screens/app_manager.dart:20:7: Error: The getter 'ChatMessage' isn't defined for the type 'AppManager'.
- - 'AppManager' is from 'package:newai_ai/screens/app_manager.dart' ('lib/screens/app_manager.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named 'ChatMessage'.
-class ChatMessage {
-      ^^^^^^^^^^^
-lib/screens/app_manager.dart:24:3: Error: The method 'ChatMessage' isn't defined for the type 'AppManager'.
- - 'AppManager' is from 'package:newai_ai/screens/app_manager.dart' ('lib/screens/app_manager.dart').
-Try correcting the name to the name of an existing method, or defining a method named 'ChatMessage'.
-  ChatMessage({
-  ^^^^^^^^^^^
-lib/screens/app_manager.dart:25:19: Error: The getter 'text' isn't defined for the type 'AppManager'.
- - 'AppManager' is from 'package:newai_ai/screens/app_manager.dart' ('lib/screens/app_manager.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named 'text'.
-    required this.text,
-                  ^^^^
-lib/screens/app_manager.dart:26:19: Error: The getter 'isSentByMe' isn't defined for the type 'AppManager'.
- - 'AppManager' is from 'package:newai_ai/screens/app_manager.dart' ('lib/screens/app_manager.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named 'isSentByMe'.
-    required this.isSentByMe,
-                  ^^^^^^^^^^
-lib/screens/app_manager.dart:27:19: Error: The getter 'timestamp' isn't defined for the type 'AppManager'.
- - 'AppManager' is from 'package:newai_ai/screens/app_manager.dart' ('lib/screens/app_manager.dart').
-Try correcting the name to the name of an existing getter, or defining a getter or field named 'timestamp'.
-    required this.timestamp,});
-                  ^^^^^^^^^
 lib/screens/auth_screen.dart:175:64: Error: Expected ';' after this.
           style: TextStyle(color: Colors.white70, fontSize: 14)),
                                                                ^
@@ -2321,7 +2235,6 @@ Execution failed for task ':app:compileFlutterBuildDebug'.
 > Run with --scan to get full insights.
 > Get more help at https://help.gradle.org.
 
-BUILD FAILED in 2m 19s
-Running Gradle task 'assembleDebug'...                            143,9s
+BUILD FAILED in 3m 29s
+Running Gradle task 'assembleDebug'...                            217,7s
 Error: Gradle task assembleDebug failed with exit code 1
-
