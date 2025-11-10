@@ -1,0 +1,665 @@
+lib/screens/account_screen.dart:83:33: Error: Can't find '}' to match '{'.
+                if (_isEditing) {
+                                ^
+lib/screens/account_screen.dart:82:27: Error: Can't find '}' to match '{'.
+              setState(() {
+                          ^
+lib/screens/account_screen.dart:155:43: Error: Can't find '}' to match '{'.
+            itemBuilder: (context, index) {
+                                          ^
+lib/screens/account_screen.dart:146:18: Error: Can't find ')' to match '('.
+    return Column( // Column düzeltildi
+                 ^
+lib/screens/account_screen.dart:128:40: Error: Can't find ')' to match '('.
+              decoration: BoxDecoration(
+                                       ^
+lib/screens/account_screen.dart:126:29: Error: Can't find ')' to match '('.
+            child: Container(
+                            ^
+lib/screens/account_screen.dart:123:21: Error: Can't find ')' to match '('.
+          Positioned( // Positioned düzeltildi
+                    ^
+lib/screens/account_screen.dart:111:20: Error: Can't find ')' to match '('.
+          Container( // Container düzeltildi
+                   ^
+lib/screens/account_screen.dart:110:19: Error: Can't find ')' to match '('.
+      child: Stack( // Stack düzeltildi
+                  ^
+lib/screens/account_screen.dart:109:18: Error: Can't find ')' to match '('.
+    return Center( // Center düzeltildi
+                 ^
+lib/screens/account_screen.dart:108:49: Error: Can't find '}' to match '{'.
+  Widget _buildProfileSection(Color themeColor) { // Metot ve parametre ismini düzelttim
+                                                ^
+lib/screens/account_screen.dart:89:22: Error: Can't find ')' to match '('.
+      body: Container( // Container düzeltildi
+                     ^
+lib/screens/account_screen.dart:78:29: Error: Can't find '}' to match '{'.
+              onPressed: () {
+                            ^
+lib/screens/account_screen.dart:76:23: Error: Can't find ')' to match '('.
+            IconButton(
+                      ^
+lib/screens/account_screen.dart:234:17: Error: Can't find ')' to match '('.
+      child: Row( // Row düzeltildi
+                ^
+lib/screens/account_screen.dart:229:51: Error: Can't find '}' to match '{'.
+class _RecommendationItem extends StatelessWidget { // Sınıf ismini _RecommendationItem olarak düzelttim
+                                                  ^
+lib/screens/account_screen.dart:224:38: Error: Can't find '}' to match '{'.
+  Widget build(BuildContext context) {
+                                     ^
+lib/screens/account_screen.dart:219:41: Error: Can't find '}' to match '{'.
+class _StatItem extends StatelessWidget { // Sınıf ismini _StatItem olarak düzelttim
+                                        ^
+lib/screens/account_screen.dart:217:30: Error: Can't find '}' to match '{'.
+  void _changeProfilePhoto() { // Metot ismini düzelttim
+                             ^
+lib/screens/account_screen.dart:199:167: Error: Can't find '}' to match '{'.
+  Widget _buildInfoField(String label, TextEditingController controller, IconData icon, {required Color themeColor, TextInputType keyboardType = TextInputType.text}) { // Metot ve parametre isimleri düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:193:36: Error: Can't find '}' to match '{'.
+  Widget _buildAdditionalOptions() { // Metot ismini düzelttim
+                                   ^
+lib/screens/account_screen.dart:187:36: Error: Can't find '}' to match '{'.
+  Widget _buildAIRecommendations() { // Metot ismini düzelttim
+                                   ^
+lib/screens/account_screen.dart:182:16: Error: Can't find ')' to match '('.
+            Row( // Row düzeltildi
+               ^
+lib/screens/account_screen.dart:179:22: Error: Can't find ')' to match '('.
+        child: Column( // Column düzeltildi
+                     ^
+lib/screens/account_screen.dart:177:27: Error: Can't find ')' to match '('.
+      child: const Padding( // Padding düzeltildi
+                          ^
+lib/screens/account_screen.dart:175:16: Error: Can't find ')' to match '('.
+    return Card( // Card düzeltildi
+               ^
+lib/screens/account_screen.dart:174:28: Error: Can't find '}' to match '{'.
+  Widget _buildUserStats() { // Metot ismini düzelttim
+                           ^
+lib/screens/account_screen.dart:61:20: Error: Can't find ')' to match '('.
+    return Scaffold( // Scaffold düzeltildi
+                   ^
+lib/screens/account_screen.dart:59:38: Error: Can't find '}' to match '{'.
+  Widget build(BuildContext context) { // Widget build düzeltildi
+                                     ^
+lib/screens/account_screen.dart:53:24: Error: Can't find '}' to match '{'.
+  void _saveUserInfo() { // Metot ismini düzelttim
+                       ^
+lib/screens/account_screen.dart:49:18: Error: Can't find '}' to match '{'.
+  void _logout() {
+                 ^
+lib/screens/account_screen.dart:34:32: Error: Can't find '}' to match '{'.
+  void _showSuccessAnimation() { // Metot ismini düzelttim
+                               ^
+lib/screens/account_screen.dart:30:30: Error: Can't find '}' to match '{'.
+  String _generateAIAvatar() { // Metot ismini düzelttim
+                             ^
+lib/screens/account_screen.dart:25:18: Error: Can't find '}' to match '{'.
+  void dispose() {
+                 ^
+lib/screens/account_screen.dart:9:56: Error: Can't find '}' to match '{'.
+class _AccountScreenState extends State<AccountScreen> {
+                                                       ^
+lib/screens/account_screen.dart:5:44: Error: Can't find '}' to match '{'.
+class AccountScreen extends StatefulWidget { // Sınıf ismini AccountScreen olarak düzelttim
+                                           ^
+lib/screens/account_screen.dart:9:1: Error: Classes can't be declared inside other classes.
+Try moving the class to the top-level.
+class _AccountScreenState extends State<AccountScreen> {
+^^^^^
+lib/screens/account_screen.dart:9:27: Error: Expected a class member, but got 'extends'.
+class _AccountScreenState extends State<AccountScreen> {
+                          ^^^^^^^
+lib/screens/account_screen.dart:9:35: Error: A method declaration needs an explicit list of parameters.
+Try adding a parameter list to the method declaration.
+class _AccountScreenState extends State<AccountScreen> {
+                                  ^^^^^
+lib/screens/account_screen.dart:8:3: Error: 'State' isn't a type.
+  State<AccountScreen> createState() => _AccountScreenState(); // Metot ismini createState olarak düzelttim}
+  ^^^^^
+lib/screens/account_screen.dart:9:35: Context: This isn't a type.
+class _AccountScreenState extends State<AccountScreen> {
+                                  ^^^^^
+lib/screens/account_screen.dart:8:41: Error: The method '_AccountScreenState' isn't defined for the type 'AccountScreen'.
+ - 'AccountScreen' is from 'package:newai_ai/screens/account_screen.dart' ('lib/screens/account_screen.dart').
+Try correcting the name to the name of an existing method, or defining a method named '_AccountScreenState'.
+  State<AccountScreen> createState() => _AccountScreenState(); // Metot ismini createState olarak düzelttim}
+                                        ^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:29:11: Error: Superclass has no method named 'dispose'.
+    super.dispose();
+          ^^^^^^^
+lib/screens/account_screen.dart:45:8: Error: Expected ';' after this.
+  bool get _hasChanges => // hasChanges düzeltildi
+       ^^^
+lib/screens/account_screen.dart:45:24: Error: A function declaration needs an explicit list of parameters.
+Try adding a parameter list to the function declaration.
+  bool get _hasChanges => // hasChanges düzeltildi
+                       ^^
+lib/screens/account_screen.dart:81:84: Error: Expected ';' after this.
+            icon: Icon(_isEditing ? Icons.close : Icons.edit, color: Colors.white70), // Icon ve Colors düzeltildi
+                                                                                   ^
+lib/screens/account_screen.dart:81:85: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+            icon: Icon(_isEditing ? Icons.close : Icons.edit, color: Colors.white70), // Icon ve Colors düzeltildi
+                                                                                    ^
+lib/screens/account_screen.dart:81:85: Error: Unexpected token ';'.
+            icon: Icon(_isEditing ? Icons.close : Icons.edit, color: Colors.white70), // Icon ve Colors düzeltildi
+                                                                                    ^
+lib/screens/account_screen.dart:88:48: Error: Expected ';' after this.
+        backgroundColor: const Color(0xff0d0d1a)),
+                                               ^
+lib/screens/account_screen.dart:88:49: Error: Expected ';' after this.
+        backgroundColor: const Color(0xff0d0d1a)),
+                                                ^
+lib/screens/account_screen.dart:88:50: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        backgroundColor: const Color(0xff0d0d1a)),
+                                                 ^
+lib/screens/account_screen.dart:88:50: Error: Unexpected token ';'.
+        backgroundColor: const Color(0xff0d0d1a)),
+                                                 ^
+lib/screens/account_screen.dart:98:34: Error: Not a constant expression.
+            _buildProfileSection(currentColor), // currentColor düzeltildi
+                                 ^^^^^^^^^^^^
+lib/screens/account_screen.dart:100:33: Error: Not a constant expression.
+            _buildThemeSelector(currentColor), // currentColor düzeltildi
+                                ^^^^^^^^^^^^
+lib/screens/account_screen.dart:103:84: Error: Not a constant expression.
+            _buildInfoField('Ad Soyad', _nameController, Icons.person, themeColor: currentColor), // Icons düzeltildi
+                                                                                   ^^^^^^^^^^^^
+lib/screens/account_screen.dart:103:41: Error: Not a constant expression.
+            _buildInfoField('Ad Soyad', _nameController, Icons.person, themeColor: currentColor), // Icons düzeltildi
+                                        ^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:104:83: Error: Not a constant expression.
+            _buildInfoField('E-posta', _emailController, Icons.email, themeColor: currentColor, keyboardType: TextInputType.emailAddress), // Icons, TextInputType düzeltildi
+                                                                                  ^^^^^^^^^^^^
+lib/screens/account_screen.dart:104:40: Error: Not a constant expression.
+            _buildInfoField('E-posta', _emailController, Icons.email, themeColor: currentColor, keyboardType: TextInputType.emailAddress), // Icons, TextInputType düzeltildi
+                                       ^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:105:102: Error: Not a constant expression.
+            _buildInfoField('Kullanıcı Adı', _usernameController, Icons.alternate_email, themeColor: currentColor), // Icons düzeltildi
+                                                                                          ^^^^^^^^^^^^
+lib/screens/account_screen.dart:105:46: Error: Not a constant expression.
+            _buildInfoField('Kullanıcı Adı', _usernameController, Icons.alternate_email, themeColor: currentColor), // Icons düzeltildi
+                                             ^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:107:13: Error: Not a constant expression.
+            _buildAdditionalOptions(),])));
+            ^^^^^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:106:13: Error: Not a constant expression.
+            _buildAIRecommendations(), // Metot ismini düzelttim
+            ^^^^^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:105:13: Error: Not a constant expression.
+            _buildInfoField('Kullanıcı Adı', _usernameController, Icons.alternate_email, themeColor: currentColor), // Icons düzeltildi
+            ^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:104:13: Error: Not a constant expression.
+            _buildInfoField('E-posta', _emailController, Icons.email, themeColor: currentColor, keyboardType: TextInputType.emailAddress), // Icons, TextInputType düzeltildi
+            ^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:103:13: Error: Not a constant expression.
+            _buildInfoField('Ad Soyad', _nameController, Icons.person, themeColor: currentColor), // Icons düzeltildi
+            ^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:102:13: Error: Not a constant expression.
+            _buildUserStats(),
+            ^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:100:13: Error: Not a constant expression.
+            _buildThemeSelector(currentColor), // currentColor düzeltildi
+            ^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:98:13: Error: Not a constant expression.
+            _buildProfileSection(currentColor), // currentColor düzeltildi
+            ^^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:95:16: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
+Try using a constructor or factory that is 'const'.
+        child: ListView( // ListView düzeltildi
+               ^^^^^^^^
+lib/screens/account_screen.dart:95:9: Error: No named parameter with the name 'child'.
+        child: ListView( // ListView düzeltildi
+        ^^^^^
+/C:/flutter/packages/flutter/lib/src/painting/decoration_image.dart:50:9: Context: Found this candidate, but the arguments don't match.
+  const DecorationImage({
+        ^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:98:13: Error: Local variable '_buildProfileSection' can't be referenced before it is declared.
+            _buildProfileSection(currentColor), // currentColor düzeltildi
+            ^^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:108:10: Context: This is the declaration of the variable '_buildProfileSection'.
+  Widget _buildProfileSection(Color themeColor) { // Metot ve parametre ismini düzelttim
+         ^^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:116:13: Error: No named parameter with the name 'child'.
+            child: CircleAvatar( // CircleAvatar düzeltildi
+            ^^^^^
+/C:/flutter/packages/flutter/lib/src/painting/box_decoration.dart:93:9: Context: Found this candidate, but the arguments don't match.
+  const BoxDecoration({
+        ^^^^^^^^^^^^^
+lib/screens/account_screen.dart:136:11: Error: Expected an identifier, but got 'if'.
+Try inserting an identifier before 'if'.
+          if (_isEditing) // isEditing düzeltildi
+          ^^
+lib/screens/account_screen.dart:136:11: Error: Expected ')' before this.
+          if (_isEditing) // isEditing düzeltildi
+          ^^
+lib/screens/account_screen.dart:131:31: Error: Too many positional arguments: 0 allowed, but 4 found.
+Try removing the extra positional arguments.
+              child: const Row( // Row düzeltildi
+                              ^
+/C:/flutter/packages/flutter/lib/src/widgets/basic.dart:5660:9: Context: Found this candidate, but the arguments don't match.
+  const Row({
+        ^^^
+lib/screens/account_screen.dart:131:15: Error: No named parameter with the name 'child'.
+              child: const Row( // Row düzeltildi
+              ^^^^^
+/C:/flutter/packages/flutter/lib/src/painting/box_decoration.dart:93:9: Context: Found this candidate, but the arguments don't match.
+  const BoxDecoration({
+        ^^^^^^^^^^^^^
+lib/screens/account_screen.dart:111:20: Error: Too many positional arguments: 0 allowed, but 1 found.
+Try removing the extra positional arguments.
+          Container( // Container düzeltildi
+                   ^
+/C:/flutter/packages/flutter/lib/src/widgets/container.dart:255:3: Context: Found this candidate, but the arguments don't match.
+  Container({
+  ^^^^^^^^^
+lib/screens/account_screen.dart:110:19: Error: Too many positional arguments: 0 allowed, but 1 found.
+Try removing the extra positional arguments.
+      child: Stack( // Stack düzeltildi
+                  ^
+/C:/flutter/packages/flutter/lib/src/widgets/basic.dart:4546:9: Context: Found this candidate, but the arguments don't match.
+  const Stack({
+        ^^^^^
+lib/screens/account_screen.dart:173:23: Error: Expected ';' after this.
+                ));})),]);
+                      ^
+lib/screens/account_screen.dart:102:13: Error: Local variable '_buildUserStats' can't be referenced before it is declared.
+            _buildUserStats(),
+            ^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:174:10: Context: This is the declaration of the variable '_buildUserStats'.
+  Widget _buildUserStats() { // Metot ismini düzelttim
+         ^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:187:10: Error: A function expression can't have a name.
+  Widget _buildAIRecommendations() { // Metot ismini düzelttim
+         ^^^^^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:188:103: Error: Expected ';' after this.
+            Text('🤖 AI Önerileri', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)), // Text ve TextStyle düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:188:104: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+            Text('🤖 AI Önerileri', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)), // Text ve TextStyle düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:188:104: Error: Unexpected token ';'.
+            Text('🤖 AI Önerileri', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)), // Text ve TextStyle düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:189:31: Error: Expected ';' after this.
+            SizedBox(height: 8),
+                              ^
+lib/screens/account_screen.dart:189:32: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+            SizedBox(height: 8),
+                               ^
+lib/screens/account_screen.dart:189:32: Error: Unexpected token ';'.
+            SizedBox(height: 8),
+                               ^
+lib/screens/account_screen.dart:190:78: Error: Expected ';' after this.
+            _RecommendationItem('📸 Profil fotoğrafı ekleyerek kişiselleştir'), // _RecommendationItem düzeltildi
+                                                                             ^
+lib/screens/account_screen.dart:190:13: Error: Not a constant expression.
+            _RecommendationItem('📸 Profil fotoğrafı ekleyerek kişiselleştir'), // _RecommendationItem düzeltildi
+            ^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:190:79: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+            _RecommendationItem('📸 Profil fotoğrafı ekleyerek kişiselleştir'), // _RecommendationItem düzeltildi
+                                                                              ^
+lib/screens/account_screen.dart:190:79: Error: Unexpected token ';'.
+            _RecommendationItem('📸 Profil fotoğrafı ekleyerek kişiselleştir'), // _RecommendationItem düzeltildi
+                                                                              ^
+lib/screens/account_screen.dart:191:61: Error: Expected ';' after this.
+            _RecommendationItem('✅ E-posta adresini doğrula'), // _RecommendationItem düzeltildi
+                                                            ^
+lib/screens/account_screen.dart:191:13: Error: Not a constant expression.
+            _RecommendationItem('✅ E-posta adresini doğrula'), // _RecommendationItem düzeltildi
+            ^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:191:62: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+            _RecommendationItem('✅ E-posta adresini doğrula'), // _RecommendationItem düzeltildi
+                                                             ^
+lib/screens/account_screen.dart:191:62: Error: Unexpected token ';'.
+            _RecommendationItem('✅ E-posta adresini doğrula'), // _RecommendationItem düzeltildi
+                                                             ^
+lib/screens/account_screen.dart:192:81: Error: Expected ';' after this.
+            _RecommendationItem('💎 Premium özellikleri keşfet', isPremium: true), // _RecommendationItem düzeltildi
+                                                                                ^
+lib/screens/account_screen.dart:192:13: Error: Not a constant expression.
+            _RecommendationItem('💎 Premium özellikleri keşfet', isPremium: true), // _RecommendationItem düzeltildi
+            ^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:192:82: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+            _RecommendationItem('💎 Premium özellikleri keşfet', isPremium: true), // _RecommendationItem düzeltildi
+                                                                                 ^
+lib/screens/account_screen.dart:192:82: Error: Unexpected token ';'.
+            _RecommendationItem('💎 Premium özellikleri keşfet', isPremium: true), // _RecommendationItem düzeltildi
+                                                                                 ^
+lib/screens/account_screen.dart:194:123: Error: Expected ';' after this.
+        const Text('Diğer Bilgiler', style: TextStyle(color: Color(0xff8c4cd2), fontSize: 18, fontWeight: FontWeight.bold)), // Text ve TextStyle düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:194:124: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        const Text('Diğer Bilgiler', style: TextStyle(color: Color(0xff8c4cd2), fontSize: 18, fontWeight: FontWeight.bold)), // Text ve TextStyle düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:194:124: Error: Unexpected token ';'.
+        const Text('Diğer Bilgiler', style: TextStyle(color: Color(0xff8c4cd2), fontSize: 18, fontWeight: FontWeight.bold)), // Text ve TextStyle düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:195:242: Error: Not a constant expression.
+        ListTile(leading: const Icon(Icons.history, color: Colors.white54), title: const Text('Sohbet Geçmişi', style: TextStyle(color: Colors.white70)), trailing: const Icon(Icons.arrow_forward_ios, color: Colors.white54, size: 18), onTap: () {}), // ListTile, Icon, Text, TextStyle düzeltildi
+                                                                                          ^^
+lib/screens/account_screen.dart:195:247: Error: Expected ';' after this.
+        ListTile(leading: const Icon(Icons.history, color: Colors.white54), title: const Text('Sohbet Geçmişi', style: TextStyle(color: Colors.white70)), trailing: const Icon(Icons.arrow_forward_ios, color: Colors.white54, size: 18), onTap: () {}), // ListTile, Icon, Text, TextStyle düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:195:248: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        ListTile(leading: const Icon(Icons.history, color: Colors.white54), title: const Text('Sohbet Geçmişi', style: TextStyle(color: Colors.white70)), trailing: const Icon(Icons.arrow_forward_ios, color: Colors.white54, size: 18), onTap: () {}), // ListTile, Icon, Text, TextStyle düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:195:248: Error: Unexpected token ';'.
+        ListTile(leading: const Icon(Icons.history, color: Colors.white54), title: const Text('Sohbet Geçmişi', style: TextStyle(color: Colors.white70)), trailing: const Icon(Icons.arrow_forward_ios, color: Colors.white54, size: 18), onTap: () {}), // ListTile, Icon, Text, TextStyle düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:196:249: Error: Not a constant expression.
+        ListTile(leading: const Icon(Icons.security, color: Colors.white54), title: const Text('Gizlilik ve Güvenlik', style: TextStyle(color: Colors.white70)), trailing: const Icon(Icons.arrow_forward_ios, color: Colors.white54, size: 18), onTap: () {}), // ListTile, Icon, Text, TextStyle düzeltildi
+                                                                                          ^^
+lib/screens/account_screen.dart:196:254: Error: Expected ';' after this.
+        ListTile(leading: const Icon(Icons.security, color: Colors.white54), title: const Text('Gizlilik ve Güvenlik', style: TextStyle(color: Colors.white70)), trailing: const Icon(Icons.arrow_forward_ios, color: Colors.white54, size: 18), onTap: () {}), // ListTile, Icon, Text, TextStyle düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:196:255: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        ListTile(leading: const Icon(Icons.security, color: Colors.white54), title: const Text('Gizlilik ve Güvenlik', style: TextStyle(color: Colors.white70)), trailing: const Icon(Icons.arrow_forward_ios, color: Colors.white54, size: 18), onTap: () {}), // ListTile, Icon, Text, TextStyle düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:196:255: Error: Unexpected token ';'.
+        ListTile(leading: const Icon(Icons.security, color: Colors.white54), title: const Text('Gizlilik ve Güvenlik', style: TextStyle(color: Colors.white70)), trailing: const Icon(Icons.arrow_forward_ios, color: Colors.white54, size: 18), onTap: () {}), // ListTile, Icon, Text, TextStyle düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:197:44: Error: Expected ';' after this.
+        const Divider(color: Colors.white10), // Divider ve Colors düzeltildi
+                                           ^
+lib/screens/account_screen.dart:197:45: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        const Divider(color: Colors.white10), // Divider ve Colors düzeltildi
+                                            ^
+lib/screens/account_screen.dart:197:45: Error: Unexpected token ';'.
+        const Divider(color: Colors.white10), // Divider ve Colors düzeltildi
+                                            ^
+lib/screens/account_screen.dart:198:176: Error: Not a constant expression.
+        ListTile(title: const Text('Çıkış Yap', style: TextStyle(color: Colors.redAccent)), trailing: const Icon(Icons.exit_to_app, color: Colors.redAccent, size: 20), onTap: _logout), // ListTile, Text, TextStyle, Icon, Colors düzeltildi
+                                                                                          ^^^^^^^
+lib/screens/account_screen.dart:198:183: Error: Expected ';' after this.
+        ListTile(title: const Text('Çıkış Yap', style: TextStyle(color: Colors.redAccent)), trailing: const Icon(Icons.exit_to_app, color: Colors.redAccent, size: 20), onTap: _logout), // ListTile, Text, TextStyle, Icon, Colors düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:198:184: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        ListTile(title: const Text('Çıkış Yap', style: TextStyle(color: Colors.redAccent)), trailing: const Icon(Icons.exit_to_app, color: Colors.redAccent, size: 20), onTap: _logout), // ListTile, Text, TextStyle, Icon, Colors düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:198:184: Error: Unexpected token ';'.
+        ListTile(title: const Text('Çıkış Yap', style: TextStyle(color: Colors.redAccent)), trailing: const Icon(Icons.exit_to_app, color: Colors.redAccent, size: 20), onTap: _logout), // ListTile, Text, TextStyle, Icon, Colors düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:203:21: Error: Not a constant expression.
+        controller: controller,
+                    ^^^^^^^^^^
+lib/screens/account_screen.dart:204:18: Error: Not a constant expression.
+        enabled: _isEditing, // isEditing düzeltildi
+                 ^^^^^^^^^^
+lib/screens/account_screen.dart:205:23: Error: Not a constant expression.
+        keyboardType: keyboardType,
+                      ^^^^^^^^^^^^
+lib/screens/account_screen.dart:208:22: Error: Not a constant expression.
+          labelText: label, // labelText düzeltildi
+                     ^^^^^
+lib/screens/account_screen.dart:209:40: Error: Not a constant expression.
+          labelStyle: TextStyle(color: _isEditing ? themeColor : Colors.white54), // TextStyle, isEditing, Colors düzeltildi
+                                       ^^^^^^^^^^
+lib/screens/account_screen.dart:209:53: Error: Not a constant expression.
+          labelStyle: TextStyle(color: _isEditing ? themeColor : Colors.white54), // TextStyle, isEditing, Colors düzeltildi
+                                                    ^^^^^^^^^^
+lib/screens/account_screen.dart:210:28: Error: Not a constant expression.
+          prefixIcon: Icon(icon, color: Colors.white54), // Icon ve Colors düzeltildi
+                           ^^^^
+lib/screens/account_screen.dart:211:46: Error: Method invocation is not a constant expression.
+          fillColor: const Color(0xff2a2a47).withOpacity(0.7),
+                                             ^^^^^^^^^^^
+lib/screens/account_screen.dart:213:65: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
+Try using a constructor or factory that is 'const'.
+          border: OutlineInputBorder(borderRadius: BorderRadius.circular(12.0), borderSide: _isEditing ? BorderSide(color: themeColor) : BorderSide.none), // OutlineInputBorder, BorderRadius, BorderSide, isEditing düzeltildi
+                                                                ^^^^^^^^
+lib/screens/account_screen.dart:213:93: Error: Not a constant expression.
+          border: OutlineInputBorder(borderRadius: BorderRadius.circular(12.0), borderSide: _isEditing ? BorderSide(color: themeColor) : BorderSide.none), // OutlineInputBorder, BorderRadius, BorderSide, isEditing düzeltildi
+                                                                                          ^^^^^^^^^^
+lib/screens/account_screen.dart:213:124: Error: Not a constant expression.
+          border: OutlineInputBorder(borderRadius: BorderRadius.circular(12.0), borderSide: _isEditing ? BorderSide(color: themeColor) : BorderSide.none), // OutlineInputBorder, BorderRadius, BorderSide, isEditing düzeltildi
+                                                                                          ^^^^^^^^^^
+lib/screens/account_screen.dart:214:72: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
+Try using a constructor or factory that is 'const'.
+          enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12.0), borderSide: _isEditing ? BorderSide(color: themeColor, width: 1.5) : BorderSide.none), // OutlineInputBorder, BorderRadius, BorderSide, isEditing düzeltildi
+                                                                       ^^^^^^^^
+lib/screens/account_screen.dart:214:100: Error: Not a constant expression.
+          enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12.0), borderSide: _isEditing ? BorderSide(color: themeColor, width: 1.5) : BorderSide.none), // OutlineInputBorder, BorderRadius, BorderSide, isEditing düzeltildi
+                                                                                          ^^^^^^^^^^
+lib/screens/account_screen.dart:214:131: Error: Not a constant expression.
+          enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12.0), borderSide: _isEditing ? BorderSide(color: themeColor, width: 1.5) : BorderSide.none), // OutlineInputBorder, BorderRadius, BorderSide, isEditing düzeltildi
+                                                                                          ^^^^^^^^^^
+lib/screens/account_screen.dart:215:72: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
+Try using a constructor or factory that is 'const'.
+          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12.0), borderSide: BorderSide(color: themeColor, width: 2.0)), // OutlineInputBorder, BorderRadius, BorderSide düzeltildi
+                                                                       ^^^^^^^^
+lib/screens/account_screen.dart:215:118: Error: Not a constant expression.
+          focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(12.0), borderSide: BorderSide(color: themeColor, width: 2.0)), // OutlineInputBorder, BorderRadius, BorderSide düzeltildi
+                                                                                          ^^^^^^^^^^
+lib/screens/account_screen.dart:218:5: Error: Method invocation is not a constant expression.
+    print('Profil fotoğrafı değiştiriliyor...'); // print düzeltildi
+    ^^^^^
+lib/screens/account_screen.dart:219:1: Error: 'class' can't be used as an identifier because it's a keyword.
+Try renaming this to be an identifier that isn't a keyword.
+class _StatItem extends StatelessWidget { // Sınıf ismini _StatItem olarak düzelttim
+^^^^^
+lib/screens/account_screen.dart:219:1: Error: Expected ';' after this.
+class _StatItem extends StatelessWidget { // Sınıf ismini _StatItem olarak düzelttim
+^^^^^
+lib/screens/account_screen.dart:219:1: Error: Not a constant expression.
+class _StatItem extends StatelessWidget { // Sınıf ismini _StatItem olarak düzelttim
+^^^^^
+lib/screens/account_screen.dart:219:7: Error: Expected ';' after this.
+class _StatItem extends StatelessWidget { // Sınıf ismini _StatItem olarak düzelttim
+      ^^^^^^^^^
+lib/screens/account_screen.dart:219:7: Error: Not a constant expression.
+class _StatItem extends StatelessWidget { // Sınıf ismini _StatItem olarak düzelttim
+      ^^^^^^^^^
+lib/screens/account_screen.dart:219:17: Error: 'extends' can't be used as an identifier because it's a keyword.
+Try renaming this to be an identifier that isn't a keyword.
+class _StatItem extends StatelessWidget { // Sınıf ismini _StatItem olarak düzelttim
+                ^^^^^^^
+lib/screens/account_screen.dart:219:17: Error: Expected ';' after this.
+class _StatItem extends StatelessWidget { // Sınıf ismini _StatItem olarak düzelttim
+                ^^^^^^^
+lib/screens/account_screen.dart:219:17: Error: Not a constant expression.
+class _StatItem extends StatelessWidget { // Sınıf ismini _StatItem olarak düzelttim
+                ^^^^^^^
+lib/screens/account_screen.dart:219:25: Error: Expected ';' after this.
+class _StatItem extends StatelessWidget { // Sınıf ismini _StatItem olarak düzelttim
+                        ^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:223:9: Error: Not a constant expression.
+  const _StatItem(this.label, this.value, this.icon);
+        ^^^^^^^^^
+lib/screens/account_screen.dart:225:14: Error: Not a constant expression.
+        Icon(icon, color: const Color(0xffc367d4)), // Icon düzeltildi
+             ^^^^
+lib/screens/account_screen.dart:225:50: Error: Expected ';' after this.
+        Icon(icon, color: const Color(0xffc367d4)), // Icon düzeltildi
+                                                 ^
+lib/screens/account_screen.dart:225:51: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        Icon(icon, color: const Color(0xffc367d4)), // Icon düzeltildi
+                                                  ^
+lib/screens/account_screen.dart:225:51: Error: Unexpected token ';'.
+        Icon(icon, color: const Color(0xffc367d4)), // Icon düzeltildi
+                                                  ^
+lib/screens/account_screen.dart:226:33: Error: Expected ';' after this.
+        const SizedBox(height: 4),
+                                ^
+lib/screens/account_screen.dart:226:34: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        const SizedBox(height: 4),
+                                 ^
+lib/screens/account_screen.dart:226:34: Error: Unexpected token ';'.
+        const SizedBox(height: 4),
+                                 ^
+lib/screens/account_screen.dart:227:14: Error: Not a constant expression.
+        Text(value, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16)), // Text, TextStyle, Colors, FontWeight düzeltildi
+             ^^^^^
+lib/screens/account_screen.dart:227:107: Error: Expected ';' after this.
+        Text(value, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16)), // Text, TextStyle, Colors, FontWeight düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:227:108: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        Text(value, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16)), // Text, TextStyle, Colors, FontWeight düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:227:108: Error: Unexpected token ';'.
+        Text(value, style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16)), // Text, TextStyle, Colors, FontWeight düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:228:14: Error: Not a constant expression.
+        Text(label, style: const TextStyle(color: Colors.white54, fontSize: 12)), // Text, TextStyle, Colors düzeltildi
+             ^^^^^
+lib/screens/account_screen.dart:228:80: Error: Expected ';' after this.
+        Text(label, style: const TextStyle(color: Colors.white54, fontSize: 12)), // Text, TextStyle, Colors düzeltildi
+                                                                               ^
+lib/screens/account_screen.dart:228:81: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+        Text(label, style: const TextStyle(color: Colors.white54, fontSize: 12)), // Text, TextStyle, Colors düzeltildi
+                                                                                ^
+lib/screens/account_screen.dart:228:81: Error: Unexpected token ';'.
+        Text(label, style: const TextStyle(color: Colors.white54, fontSize: 12)), // Text, TextStyle, Colors düzeltildi
+                                                                                ^
+lib/screens/account_screen.dart:229:1: Error: 'class' can't be used as an identifier because it's a keyword.
+Try renaming this to be an identifier that isn't a keyword.
+class _RecommendationItem extends StatelessWidget { // Sınıf ismini _RecommendationItem olarak düzelttim
+^^^^^
+lib/screens/account_screen.dart:229:1: Error: Expected ';' after this.
+class _RecommendationItem extends StatelessWidget { // Sınıf ismini _RecommendationItem olarak düzelttim
+^^^^^
+lib/screens/account_screen.dart:229:1: Error: Not a constant expression.
+class _RecommendationItem extends StatelessWidget { // Sınıf ismini _RecommendationItem olarak düzelttim
+^^^^^
+lib/screens/account_screen.dart:229:7: Error: Expected ';' after this.
+class _RecommendationItem extends StatelessWidget { // Sınıf ismini _RecommendationItem olarak düzelttim
+      ^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:229:7: Error: Not a constant expression.
+class _RecommendationItem extends StatelessWidget { // Sınıf ismini _RecommendationItem olarak düzelttim
+      ^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:229:27: Error: 'extends' can't be used as an identifier because it's a keyword.
+Try renaming this to be an identifier that isn't a keyword.
+class _RecommendationItem extends StatelessWidget { // Sınıf ismini _RecommendationItem olarak düzelttim
+                          ^^^^^^^
+lib/screens/account_screen.dart:229:27: Error: Expected ';' after this.
+class _RecommendationItem extends StatelessWidget { // Sınıf ismini _RecommendationItem olarak düzelttim
+                          ^^^^^^^
+lib/screens/account_screen.dart:229:27: Error: Not a constant expression.
+class _RecommendationItem extends StatelessWidget { // Sınıf ismini _RecommendationItem olarak düzelttim
+                          ^^^^^^^
+lib/screens/account_screen.dart:229:35: Error: Expected ';' after this.
+class _RecommendationItem extends StatelessWidget { // Sınıf ismini _RecommendationItem olarak düzelttim
+                                  ^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:232:56: Error: Not a constant expression.
+  const _RecommendationItem(this.text, {this.isPremium = false});
+                                                       ^
+lib/screens/account_screen.dart:232:9: Error: Not a constant expression.
+  const _RecommendationItem(this.text, {this.isPremium = false});
+        ^^^^^^^^^^^^^^^^^^^
+lib/screens/account_screen.dart:233:54: Error: Expected ';' after this.
+      padding: const EdgeInsets.symmetric(vertical: 4), // EdgeInsets düzeltildi
+                                                     ^
+lib/screens/account_screen.dart:233:55: Error: Expected an identifier, but got ','.
+Try inserting an identifier before ','.
+      padding: const EdgeInsets.symmetric(vertical: 4), // EdgeInsets düzeltildi
+                                                      ^
+lib/screens/account_screen.dart:233:55: Error: Unexpected token ','.
+      padding: const EdgeInsets.symmetric(vertical: 4), // EdgeInsets düzeltildi
+                                                      ^
+lib/screens/account_screen.dart:235:48: Error: Not a constant expression.
+          Icon(Icons.arrow_forward_ios, color: isPremium ? const Color(0xffffd700) : Colors.white54, size: 12), // Icon, Colors, isPremium düzeltildi
+                                               ^^^^^^^^^
+lib/screens/account_screen.dart:237:62: Error: Not a constant expression.
+          Expanded(child: Text(text, style: TextStyle(color: isPremium ? const Color(0xffffd700) : Colors.white70, fontSize: 14))), // Expanded, Text, TextStyle, Colors, isPremium düzeltildi
+                                                             ^^^^^^^^^
+lib/screens/account_screen.dart:237:32: Error: Not a constant expression.
+          Expanded(child: Text(text, style: TextStyle(color: isPremium ? const Color(0xffffd700) : Colors.white70, fontSize: 14))), // Expanded, Text, TextStyle, Colors, isPremium düzeltildi
+                               ^^^^
+lib/screens/account_screen.dart:234:17: Error: Too many positional arguments: 0 allowed, but 3 found.
+Try removing the extra positional arguments.
+      child: Row( // Row düzeltildi
+                ^
+/C:/flutter/packages/flutter/lib/src/widgets/basic.dart:5660:9: Context: Found this candidate, but the arguments don't match.
+  const Row({
+        ^^^
+lib/screens/account_screen.dart:237:131: Error: Expected ';' after this.
+          Expanded(child: Text(text, style: TextStyle(color: isPremium ? const Color(0xffffd700) : Colors.white70, fontSize: 14))), // Expanded, Text, TextStyle, Colors, isPremium düzeltildi
+                                                                                          ^
+lib/screens/account_screen.dart:184:17: Error: Not a constant expression.
+                _StatItem('Sohbet', '127', Icons.chat), // _StatItem ve Icons düzeltildi
+                ^^^^^^^^^
+lib/screens/account_screen.dart:185:17: Error: Not a constant expression.
+                _StatItem('Kelime', '15k', Icons.text_fields), // _StatItem ve Icons düzeltildi
+                ^^^^^^^^^
+lib/screens/account_screen.dart:186:17: Error: Not a constant expression.
+                _StatItem('Dakika', '45', Icons.timer), // _StatItem ve Icons düzeltildi
+                ^^^^^^^^^
+lib/screens/account_screen.dart:182:16: Error: Too many positional arguments: 0 allowed, but 4 found.
+Try removing the extra positional arguments.
+            Row( // Row düzeltildi
+               ^
+/C:/flutter/packages/flutter/lib/src/widgets/basic.dart:5660:9: Context: Found this candidate, but the arguments don't match.
+  const Row({
+        ^^^
+lib/screens/account_screen.dart:179:22: Error: Too many positional arguments: 0 allowed, but 3 found.
+Try removing the extra positional arguments.
+        child: Column( // Column düzeltildi
+                     ^
+/C:/flutter/packages/flutter/lib/src/widgets/basic.dart:5850:9: Context: Found this candidate, but the arguments don't match.
+  const Column({
+        ^^^^^^
+lib/screens/account_screen.dart:36:16: Error: The getter 'context' isn't defined for the type 'AccountScreen'.
+ - 'AccountScreen' is from 'package:newai_ai/screens/account_screen.dart' ('lib/screens/account_screen.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'context'.
+      context: context,
+               ^^^^^^^
+lib/screens/account_screen.dart:44:68: Error: The getter 'context' isn't defined for the type 'AccountScreen'.
+ - 'AccountScreen' is from 'package:newai_ai/screens/account_screen.dart' ('lib/screens/account_screen.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'context'.
+    Future.delayed(const Duration(seconds: 2), () => Navigator.pop(context)); // Navigator.pop düzeltildi
+                                                                   ^^^^^^^
+lib/screens/account_screen.dart:50:18: Error: The getter 'context' isn't defined for the type 'AccountScreen'.
+ - 'AccountScreen' is from 'package:newai_ai/screens/account_screen.dart' ('lib/screens/account_screen.dart').
+Try correcting the name to the name of an existing getter, or defining a getter or field named 'context'.
+    Navigator.of(context).pushAndRemoveUntil( // Navigator.of düzeltildi
+                 ^^^^^^^
+lib/screens/account_screen.dart:75:29: Error: A value of type 'bool Function()' can't be assigned to a variable of type 'bool'.
+          if (_isEditing && _hasChanges) // isEditing ve hasChanges düzeltildi
+                            ^
+lib/screens/account_screen.dart:80:17: Error: The method 'setState' isn't defined for the type 'AccountScreen'.
+ - 'AccountScreen' is from 'package:newai_ai/screens/account_screen.dart' ('lib/screens/account_screen.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'setState'.
+                setState(() => _isEditing = false); // setState ve isEditing düzeltildi}),
+                ^^^^^^^^
+lib/screens/account_screen.dart:82:15: Error: The method 'setState' isn't defined for the type 'AccountScreen'.
+ - 'AccountScreen' is from 'package:newai_ai/screens/account_screen.dart' ('lib/screens/account_screen.dart').
+Try correcting the name to the name of an existing method, or defining a method named 'setState'.
+              setState(() {
+              ^^^^^^^^
+Target kernel_snapshot_program failed: Exception
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileFlutterBuildDebug'.
+> Process 'command 'C:\flutter\bin\flutter.bat'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 37s
+Running Gradle task 'assembleDebug'...                            100,4s
+Error: Gradle task assembleDebug failed with exit code 1
