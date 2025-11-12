@@ -1,0 +1,137 @@
+FAILURE: Build completed with 2 failures.
+
+
+
+1: Task failed with an exception.
+
+-----------
+
+* What went wrong:
+
+Execution failed for task ':shared_preferences_android:compileDebugKotlin'.
+
+> Could not isolate parameters org.jetbrains.kotlin.gradle.internal.transforms.BuildToolsApiClasspathEntrySnapshotTransform$Parameters_Decorated@72fe7dc9 of artifact transform BuildToolsApiClasspathEntrySnapshotTransform
+
+   > Could not isolate value org.jetbrains.kotlin.gradle.internal.transforms.BuildToolsApiClasspathEntrySnapshotTransform$Parameters_Decorated@72fe7dc9 of type BuildToolsApiClasspathEntrySnapshotTransform.Parameters
+
+      > Could not resolve all files for configuration ':shared_preferences_android:kotlinBuildToolsApiClasspath'.
+
+         > Could not download kotlin-compiler-embeddable-2.1.0.jar (org.jetbrains.kotlin:kotlin-compiler-embeddable:2.1.0)
+
+            > Could not get resource 'https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.1.0/kotlin-compiler-embeddable-2.1.0.jar'.
+
+               > Diskte yeterli yer yok
+
+
+
+* Try:
+
+> Run with --stacktrace option to get the stack trace.
+
+> Run with --info or --debug option to get more log output.
+
+> Run with --scan to get full insights.
+
+> Get more help at https://help.gradle.org.
+
+==============================================================================
+
+
+
+2: Task failed with an exception.
+
+-----------
+
+* What went wrong:
+
+java.io.IOException: Diskte yeterli yer yok
+
+
+
+* Try:
+
+> Run with --stacktrace option to get the stack trace.
+
+> Run with --info or --debug option to get more log output.
+
+> Run with --scan to get full insights.
+
+> Get more help at https://help.gradle.org.
+
+==============================================================================
+
+
+
+BUILD FAILED in 29m 38s
+
+Running Gradle task 'assembleDebug'...                           1790,7s
+
+[!] Gradle threw an error while downloading artifacts from the network.
+
+Retrying Gradle Build: #1, wait time: 100ms
+
+
+
+FAILURE: Build completed with 2 failures.
+
+
+
+1: Task failed with an exception.
+
+-----------
+
+* What went wrong:
+
+Execution failed for task ':shared_preferences_android:compileDebugKotlin'.
+
+> Error while evaluating property 'friendPathsSet$kotlin_gradle_plugin_common' of task ':shared_preferences_android:compileDebugKotlin'.
+
+   > Could not resolve all dependencies for configuration ':shared_preferences_android:debugCompileClasspath'.
+
+      > Problems writing to Binary store in C:\Users\Samet Can 88\.gradle\.tmp\gradle9094940434222447205.bin (exist: true)
+
+
+
+* Try:
+
+> Run with --stacktrace option to get the stack trace.
+
+> Run with --info or --debug option to get more log output.
+
+> Run with --scan to get full insights.
+
+> Get more help at https://help.gradle.org.
+
+==============================================================================
+
+
+
+2: Task failed with an exception.
+
+-----------
+
+* What went wrong:
+
+java.io.IOException: Diskte yeterli yer yok
+
+
+
+* Try:
+
+> Run with --stacktrace option to get the stack trace.
+
+> Run with --info or --debug option to get more log output.
+
+> Run with --scan to get full insights.
+
+> Get more help at https://help.gradle.org.
+
+==============================================================================
+
+
+
+BUILD FAILED in 41s
+
+Running Gradle task 'assembleDebug'...                             44,6s
+
+Error: Gradle task assembleDebug failed with exit code 1
